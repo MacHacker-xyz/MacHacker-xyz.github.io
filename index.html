@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/bitbug_favicon-3.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/bitbug_favicon-2.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/bitbug_favicon.ico">
+  <link rel="mask-icon" href="/bitbug_favicon-3.ico" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.machacker.xyz","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="MacHackerの博客">
+<meta property="og:url" content="https://blog.machacker.xyz/index.html">
+<meta property="og:site_name" content="MacHackerの博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="MacHacker">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://blog.machacker.xyz/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>MacHackerの博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">MacHackerの博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">关于科学技术和苹果皮</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">1</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">0</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">1</span></a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/MacHacker-xyz" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.machacker.xyz/2022/05/02/This-amazing-little-device-holds-a-thousands-songs-it-goes-right-in-my-pocket/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/author.png">
+      <meta itemprop="name" content="MacHacker">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="MacHackerの博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/05/02/This-amazing-little-device-holds-a-thousands-songs-it-goes-right-in-my-pocket/" class="post-title-link" itemprop="url">This amazing little device holds a thousands songs, it goes right in my pocket</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-05-02 11:22:19 / 修改时间：14:54:40" itemprop="dateCreated datePublished" datetime="2022-05-02T11:22:19+08:00">2022-05-02</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">The ones who are crazy enough <span class="built_in">to</span> think that change <span class="keyword">the</span> world are <span class="keyword">the</span> ones who <span class="built_in">do</span>.</span><br><span class="line">那些疯狂到认为改变世界的人就是那些真正做到的人。</span><br></pre></td></tr></table></figure>
+
+<p>该文将回顾两个曾经改变世界的产品，领略那些“过去”的“新潮”。</p>
+<h1 id="模拟信号时代（Analogy-era）"><a href="#模拟信号时代（Analogy-era）" class="headerlink" title="模拟信号时代（Analogy era）"></a>模拟信号时代（Analogy era）</h1><p>说到磁带，我们零零后的最深印象也许是小学时代磁带机中反复播放的人教版英语教材。由于极为低廉的成本，以及新的音乐载体形式在10年前的中国还算是奢侈品，它在语言学习市场“稳坐江山”。</p>
+<p>回顾上世纪80年代，那个音乐由磁带主宰的年代，有一种时尚产品叫Walkman，它是历史上的第一台随声听设备。它有着优雅的外观，工业感十足的金属磨砂外壳，顶端的银色标志“SONY”在40年后任然闪闪发光。</p>
+<p><img src="https://github.com/MacHacker-xyz/blog-picture/blob/main/WechatIMG25.jpeg?raw=true" alt="Walkman DD11"></p>
+<p>磁带作为一种音频介质，和今天许多多数字音乐格式相比，最大的区别在于它是用模拟信号来记录声音的。也许一说到模拟信号，人们就会和音质差联系在一起，这也并不是没有道理。我们知道磁带机的原理无非是磁带通过在磁场中磁化来记录模拟信号，在磁带盘转动的过程中由磁头用物理接触的方式采集信号，然后还原成为波形信息，最后通过放大电路转入耳机中。在这个过程中间，可能造成音质下降的环节其实还是非常多的。首先，磁化介质可能会随着时间推移而退磁，造成音频信息的不可逆丢失；其次，磁头与磁带采用了物理接触，通过电磁感应转化为微小电流信号，物理接触不可避免的带来噪声；最后，通过磁带机中的放大电路，耳机发出声音，放大电路响应的非线性，会造成信号的失真。</p>
+<p>分析了完技术上的原理，回到这个跨时代产品，具体看看他到底用了什么黑科技来克服这些问题。</p>
+<p>磁带消磁问题可以通过选择性能更好的磁介质来改善，为了区分磁带的品质，索尼等厂商人为区分了四种类型，他们的性能由低到高排列。其中一、二类磁带性能较差，被普遍用于语言学习，这也是坏印象的开始。这些磁带多由氧化铁作为磁性物质，他们普遍信噪比低，噪声大。三类带则使用了二氧化铬作为磁性物质，四类带则是金属带，三、四类带被发烧友们所喜爱，相应也有着相当夸张的价格。以四类带为例，这个技术虽然上世纪就已经成熟，但是在2022年的今天四类带每分钟音频价格仍然需要吓人的3元以上，这样看现在某些DSD格式歌曲一首标价30元也就不奇怪了。从产品营销的角度来看，音乐产业中按音质来促进更多消费的手段早在40年前的磁带时代就非常普遍，今天某些音乐平台用钱来区分音质的做法也算是从磁带时代学习来的吧。</p>
+<p><img src="https://github.com/MacHacker-xyz/blog-picture/blob/main/WechatIMG22.jpeg?raw=true" alt="我收藏的金属四类带一枚"></p>
+<p>相信看文章的不少人对于近年来新兴流行起来的一种音乐格式“dolby atoms”有所了解，它带给人们具有空间感的聆听体验。40年前，也有这样的两个新潮，其中之一是“dolby NR”。没错，“Dolby实验室”早在40年前就已经在音频领域占有一席之地，这里的“NR”技术则是为了消除由于磁带噪音大的特点而出现的降噪技术，简单说就是在最后一环优化输出，这个技术在当时是一个黑科技。但是这种提升音质的方式本人认为治标不治本，开启杜比降噪的直接结果是高频信号被截断，对于发烧友来说就非常难受了。第二项黑科技是“Stero”，也就是立体声双声道输出，在新千年中的语言学习磁带仍然只支持单声道输出时，上世纪Walkman就已经有双声道输出功能了。</p>
+<h1 id="由模拟信号转向数字信号（Analogy-to-Digital）"><a href="#由模拟信号转向数字信号（Analogy-to-Digital）" class="headerlink" title="由模拟信号转向数字信号（Analogy to Digital）"></a>由模拟信号转向数字信号（Analogy to Digital）</h1><p>（由于我对于CD机的历史和设计并不感兴趣，这里忽视它的存在）<strong>然而“革命者”最终都逃脱不了“被革命”的命运</strong>。虽然曾经引领了音乐行业，但Walkman也有被取而代之的一天。下面将要介绍的是另一家以前从未涉足音乐领域的公司，它带着另一个跨时代的产品闯进了音乐市场，带来了音乐产业的一次更加彻底的变革。</p>
+<p>长期陶醉于Walkman的优美设计，一群“海盗”决心要“holds a thousands songs right in pocket”，这次他们带来了更加具有颠覆性的新的产品和服务，也带来了全新的音乐市场和全新的设计语言。</p>
+<p>在2001年，初代iPod发布会上，Steve jobs说：”<strong>This amazing little device holds a thousands songs, it goes right in my pocket</strong>“。同时代的便携式音乐播放器以CD机和磁带机为主，数字音频技术并不不普及，在iPod现前，也有数字音乐播放器，但困与存储技术和向数字音频时代变革所面临的阻力（例如盗版和反盗版抗争），最为先进的数字播放器只能存储数十首歌曲，且体积硕大。苹果电脑公司带着这样的宣言入场，可见其产品的定位：彻底的市场变革。</p>
+<p><img src="https://media.npr.org/assets/img/2021/10/23/gettyimages-1168803-9cc3b2ef682b015dfe5a5edc83262ee476bd4d12-s1100-c50.jpg" alt="img"></p>
+<p>首先说说人们所熟知的苹果设计语言。白色、简洁，在iPod上这些都充分展现，对比苹果和索尼的产品，你不难发现前者多为白色或彩色，带有重工业感，而后者多位褐色或深蓝色，突出简洁的美，这也是两家公司最为突出的特点和区别。在设计iPod时，苹果公司内部曾就耳机颜色的选取进行了争论，争论的焦点在于，当时市面上机会看不到白色耳机，苹果公司对一些人担心罕见的配色会影响消费者的观感，最终争论以乔布斯力推选取白色结束。现在看来，这貌似无稽之谈，今天白色耳机已经泛滥，但白色的选取在当时却起到了意想不到的效果。因为它的独特性，很快白色耳机和耳机线就成了iPod的标志，人们自然而然的将白色耳机和iPod联系起来。遇见带白色耳机的熟人，人们习惯以“你的iPod”里面有什么歌作为寒暄的开始。史蒂文·列维在《完美之物》(The Perfect Thing)一书中写道：“只要把你的iPod交给一个朋友、你初次约会的人，或者是飞机上那个坐在你身旁的陌生人，你就像一本书一样被打开了。所有人只需要用转盘浏览一遍你的歌曲库，从音乐角度上说，你就一丝不挂了。暴露的不仅仅是你的喜好——而是你是一个怎样的人。”</p>
+<p><img src="https://samcdesignblog.files.wordpress.com/2018/09/ipod-campaign-mbaknol-e1422018366635.gif" alt="iPod剪裁广告"></p>
+<p>白色的选取最终也促成了一系列广告的大获成功，那就是iPod剪裁广告，画面中的黑影子随着音乐起舞，最为显眼的则是那根随风摆动的白色耳机和耳机线，该广告也被称为苹果最为成功的商业广告之一。近年来，在苹果产品的宣发中也不难发现苹果在炒二十年前iPod广告的冷饭。例如AirPods广告中就效仿了iPod的剪裁风格，虽然拍摄人特意请了黑人以突出白色配色的独特性，但是由于AirPods太小，太不显眼，且市场上白色耳机早就不是苹果公司独有的特征，完全没有当年剪裁广告的震撼力，不是果粉基本上是分辨不出来苹果是在效仿一则20年前的广告。</p>
+<h1 id="强行升华"><a href="#强行升华" class="headerlink" title="强行升华"></a>强行升华</h1><p>关于技术革新中的失败，人们往往提到美国的柯达公司，他们因为害怕丢掉巨大的胶卷市场而有意地抑制数码相机的研发，最终成为时代弃子。十五年前，在面对开发iPhone智能手机是否会挤压iPod音乐播放器这个公司主要业务的营收时，苹果公司并没有像柯达公司那样徘徊不前。</p>
+<p>是至今日，walkman和iPod早已是明日黄花。除了少数发烧友，人们的音乐消费主要集中在各种各样的订阅制音乐流媒体服务中，音乐对于多数人来说已经不再依赖于一个专门载体，但那些曾今引领过音乐产业的彻底变革仍然具有研究价值。</p>
+<p>真真的伟大不在于模仿，而在于变革。沃尔特·艾萨克森在《史蒂夫·乔布斯传》中指出苹果公司的成功并不在于产品的超群，而是不断的创造新的颠覆性的，目前还不存在的产品和服务。虽然iPod和Walkman已经过去，但他们创造的时代仍然深刻影响着今天的音乐产业，这两家公司仍然是音乐行业的领跑者，他们不留恋过去，而是紧跟时代脚步，不断创造新的音乐产品。</p>
+<p>过去的音乐产业变革中很罕见中国企业的影子，一个很大的原因是直到20世纪末，我国国民的经济能力仍然不足以支持内容消费，所以那些推动音乐产业发展的大事件并没有给中国人留下深刻印象。但是本文提及的这些成功的经验是宝贵的，<strong>相比于在已有市场开展广泛竞争，中国智造的正解也许是创造全新的，能改变世界的需求和产品和市场，引领下一个时代。</strong></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="MacHacker"
+      src="/images/author.png">
+  <p class="site-author-name" itemprop="name">MacHacker</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/MacHacker-xyz" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;MacHacker-xyz" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/me@machacker.xyz" title="E-Mail → me@machacker.xyz"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">MacHacker</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,0' opacity='0.5' zIndex='-1' count='150' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+</body>
+</html>
