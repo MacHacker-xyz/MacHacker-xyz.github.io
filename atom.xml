@@ -6,7 +6,7 @@
   <link href="https://blog.machacker.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.machacker.xyz/"/>
-  <updated>2022-05-02T06:54:40.851Z</updated>
+  <updated>2022-05-06T15:17:05.501Z</updated>
   <id>https://blog.machacker.xyz/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>“my dream computer（未完待续）“</title>
+    <link href="https://blog.machacker.xyz/2022/05/06/my%20dream%20computer%EF%BC%88%E6%9C%AA%E5%AE%8C%E5%BE%85%E7%BB%AD%EF%BC%89/"/>
+    <id>https://blog.machacker.xyz/2022/05/06/my%20dream%20computer%EF%BC%88%E6%9C%AA%E5%AE%8C%E5%BE%85%E7%BB%AD%EF%BC%89/</id>
+    <published>2022-05-06T14:35:56.000Z</published>
+    <updated>2022-05-06T15:17:05.501Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="2022-05-06-记"><a href="#2022-05-06-记" class="headerlink" title="(2022-05-06 记)"></a><em><strong>(2022-05-06 记)</strong></em></h3><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>由于本人缺少一台具有性能和颜值的台式电脑，同时作为资深的果粉，想要搞出点不一样的东西出来，经过一番思考我决定在1984年苹果电脑公司发布的Macintosh电脑中塞下一台小型主机。这部电脑具有重要的历史意义，它是第一台具有图形化用户界面的个人电脑，桌面这个概念最先在该电脑上出现，同时，该电脑外观复古，非常具有标识性，制作完成后将会令人赏心悦目。所以我打算从今天开始记录下这个电脑改造的全过程。同时把改装的一些技术文档公开，这样方便后来的爱好者的相关工作。</p><h1 id="购买电脑"><a href="#购买电脑" class="headerlink" title="购买电脑"></a>购买电脑</h1><p>Macintosh电脑属于古董电脑，所以正常情况下购买是有难度的，这里具体讲讲难度吧：</p><ol><li>国内市场上的电脑很少，而且价格不合理</li><li>国外市场上的电脑需要在国外的平台上交易，同时运送回国是一大难点</li><li>国外交易需要外币卡，这种卡在国内“小孩”是不可以随便办理的</li></ol><p><img src="https://github.com/MacHacker-xyz/blog-picture/blob/main/WechatIMG33.jpeg?raw=true" alt="WechatIMG33.jpeg"></p><p>讲这么多，貌似我是搞不到了，然而者都难不倒万能的“淘宝”，最终我在淘宝一个商家处从eBay上代购了这台我即将要改造的电脑，拍下这台的原因是因为这台成色相当好，主要是没有裂痕（者对于40年前的机器来说相当不容易），最终转运花掉了我将近2个月等待时间，开学一个月后的某天，一台印着“Fedex”的盒子终于抵达宿舍楼下。</p><h1 id="电脑外观展示（改装前）"><a href="#电脑外观展示（改装前）" class="headerlink" title="电脑外观展示（改装前）"></a>电脑外观展示（改装前）</h1><img src="https://github.com/MacHacker-xyz/blog-picture/blob/main/Macintosh-pre.jpeg?raw=true" alt="Macintosh-pre.jpeg" style="zoom:50%;" /><p>之所以会想到使用这种电脑玩mod，一个很重要的原因是这个电脑有CRT大肚子，很合适用于安装主板和GPU，电源，散热等等设备，许多YouTuber也早有类似工作，我想我的工作是建立在先前工作基础上面的。同时我也加入了国内某爱好者社群，群友基本上都手持一个Macintosh改装成品，同时作为玩家，他们都非常乐意一个年轻人入圈。最最重要的原因还是我本人是果粉，特别被苹果上世纪的产品所吸引。</p><h1 id="遇到的一个大麻烦"><a href="#遇到的一个大麻烦" class="headerlink" title="遇到的一个大麻烦"></a>遇到的一个大麻烦</h1><img src="https://github.com/MacHacker-xyz/blog-picture/blob/main/WechatIMG34.jpeg?raw=true" alt="WechatIMG34.jpeg" style="zoom:33%;" /><p>苹果公司从上个世纪开始就是一家崇尚产品封闭化的公司，它不希望用户随意的打开和改装产品，破话它产品的完整性，在Macintosh上面，最为明显的体现就是Macintosh机身上的螺丝钉，专属于它的t15号螺丝，它设计的初衷就是只有苹果公司员工才有能力打开和维修他的机器。等了好一阵子，我的t15号螺丝终于到手了，但是当我开始尝试打开其中一个螺丝的时候我才意识到了问题的严重性，螺丝完全生锈，在我持续十分钟的软磨硬泡后螺丝孔干脆被打磨成了圆形。但凡有点知识的人也知道，螺丝是没法正常取下了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;2022-05-06-记&quot;&gt;&lt;a href=&quot;#2022-05-06-记&quot; class=&quot;headerlink&quot; title=&quot;(2022-05-06 记)&quot;&gt;&lt;/a&gt;&lt;em&gt;&lt;strong&gt;(2022-05-06 记)&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;&lt;h1</summary>
+      
+    
+    
+    
+    
+    <category term="装机 苹果皮" scheme="https://blog.machacker.xyz/tags/%E8%A3%85%E6%9C%BA-%E8%8B%B9%E6%9E%9C%E7%9A%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>This amazing little device holds a thousands songs, it goes right in my pocket</title>
